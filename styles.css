@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+  font-size: 1em;
+  line-height: 1.2em;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#text,
+#counts {
+  width: 100%;
+}
+
+#counts {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.value {
+  text-align: center;
+}
+
+.hidden {
+  visibility: hidden;
+}
